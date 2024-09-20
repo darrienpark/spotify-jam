@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Power Grotesk";
+  src: url("/fonts/PowerGrotesk-Regular.ttf");
+}
+
+h1 {
+  font-family: "Power Grotesk";
+  font-size: 3rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
